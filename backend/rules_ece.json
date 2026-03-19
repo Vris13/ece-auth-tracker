@@ -1,0 +1,204 @@
+{
+  "graduation_requirements": {
+    "total_ects": 300,
+    "basic_cycle_ects": 180,
+    "specialization_cycle_ects": 120,
+    "diploma_thesis_ects": 30,
+    "max_out_of_department_ects": 15,
+    "sector_selection_threshold_ects": 94
+  },
+  "basic_cycle": {
+    "1": [
+      {"code": "001", "name": "Λογισμός Ι", "ects": 6, "type": "core"},
+      {"code": "002", "name": "Γραμμική Άλγεβρα", "ects": 5, "type": "core"},
+      {"code": "003", "name": "Φυσική", "ects": 5, "type": "core"},
+      {"code": "004", "name": "Δομημένος Προγραμματισμός", "ects": 5, "type": "core"},
+      {"code": "005", "name": "Λογική Σχεδίαση", "ects": 5, "type": "core"},
+      {"code": "006", "name": "Τεχνικές Σχεδίασης με Υπολογιστή", "ects": 4, "type": "core"},
+      {"code": "ΞΓ27", "name": "Ξένη Γλώσσα", "ects": 2, "type": "optional"}
+    ],
+    "2": [
+      {"code": "007", "name": "Λογισμός ΙΙ", "ects": 6, "type": "core"},
+      {"code": "008", "name": "Ηλεκτρικά Κυκλώματα Ι", "ects": 6, "type": "core"},
+      {"code": "009", "name": "Αντικειμενοστρεφής Προγραμματισμός", "ects": 5, "type": "core"},
+      {"code": "010", "name": "Ηλεκτρολογικά Υλικά", "ects": 4, "type": "core"},
+      {"code": "011", "name": "Οργάνωση Υπολογιστών", "ects": 5, "type": "core"},
+      {"code": "012", "name": "Εφαρμοσμένη Θερμοδυναμική", "ects": 4, "type": "core"}
+    ],
+    "3": [
+      {"code": "013", "name": "Εφαρμοσμένα Μαθηματικά Ι", "ects": 7, "type": "core"},
+      {"code": "014", "name": "Ηλεκτρικά Κυκλώματα ΙΙ", "ects": 6, "type": "core"},
+      {"code": "015", "name": "Ηλεκτρομαγνητικό Πεδίο Ι", "ects": 6, "type": "core"},
+      {"code": "016", "name": "Ηλεκτρονική Ι", "ects": 6, "type": "core"},
+      {"code": "017", "name": "Δομές Δεδομένων", "ects": 5, "type": "core"}
+    ],
+    "4": [
+      {"code": "018", "name": "Ηλεκτρομαγνητικό Πεδίο ΙΙ", "ects": 6, "type": "core"},
+      {"code": "019", "name": "Ηλεκτρονική ΙΙ", "ects": 6, "type": "core"},
+      {"code": "020", "name": "Θεωρία Πιθανοτήτων και Στατιστική", "ects": 6, "type": "core"},
+      {"code": "021", "name": "Σήματα και Συστήματα", "ects": 6, "type": "core"},
+      {"code": "022", "name": "Αριθμητική Ανάλυση", "ects": 6, "type": "elective"},
+      {"code": "023", "name": "Διακριτά Μαθηματικά", "ects": 6, "type": "elective"}
+    ],
+    "5": [
+      {"code": "024", "name": "Συστήματα Ηλεκτρικής Ενέργειας Ι", "ects": 6, "type": "core"},
+      {"code": "025", "name": "Στοχαστικά Σήματα και Διαδικασίες", "ects": 6, "type": "core"},
+      {"code": "026", "name": "Συστήματα Αυτομάτου Ελέγχου Ι", "ects": 6, "type": "core"},
+      {"code": "027", "name": "Τηλεπικοινωνιακά Συστήματα Ι", "ects": 6, "type": "core"},
+      {"code": "028", "name": "Συστήματα Μετρήσεων", "ects": 6, "type": "core"}
+    ],
+    "6": [
+      {"code": "029", "name": "Συστήματα Ηλεκτρικής Ενέργειας ΙΙ", "ects": 6, "type": "core"},
+      {"code": "030", "name": "Τηλεπικοινωνιακά Συστήματα ΙΙ", "ects": 6, "type": "core"},
+      {"code": "031", "name": "Συστήματα Αυτομάτου Ελέγχου ΙΙ", "ects": 6, "type": "core"},
+      {"code": "032", "name": "Ηλεκτρικές Μηχανές Ι", "ects": 6, "type": "elective"},
+      {"code": "033", "name": "Διατάξεις Υψηλών Συχνοτήτων", "ects": 6, "type": "elective"},
+      {"code": "034", "name": "Ανάλυση και Σχεδιασμός Αλγορίθμων", "ects": 6, "type": "elective"},
+      {"code": "035", "name": "Δίκτυα Υπολογιστών Ι", "ects": 6, "type": "elective"}
+    ],
+    "10": [
+      {"code": "DIP", "name": "Διπλωματική Εργασία", "ects": 30, "type": "core"},
+      {"code": "PRK", "name": "Προαιρετική Πρακτική Άσκηση", "ects": 15, "type": "optional"}
+    ]
+  },
+  "sectors": {
+    "energy": {
+      "name": "Ηλεκτρικής Ενέργειας",
+      "rules": {"min_sector_ects_per_semester": 15},
+      "courses": {
+        "7": [
+          {"code": "036", "name": "Μεταφορά και Διανομή Ηλεκτρικής Ενέργειας", "ects": 5, "type": "elective"},
+          {"code": "037", "name": "Ανάλυση Συστημάτων Ηλεκτρικής Ενέργειας", "ects": 5, "type": "elective"},
+          {"code": "038", "name": "Ηλεκτρικές Μηχανές ΙΙ", "ects": 5, "type": "elective"},
+          {"code": "039", "name": "Ηλεκτρονικά Ισχύος Ι", "ects": 5, "type": "elective"},
+          {"code": "040", "name": "Υψηλές Τάσεις Ι", "ects": 5, "type": "elective"},
+          {"code": "041", "name": "Μετάδοση Θερμότητας", "ects": 4, "type": "elective"},
+          {"code": "042", "name": "Εισαγωγή στις Εφαρμογές της Πυρηνικής Τεχνολογίας", "ects": 4, "type": "elective"},
+          {"code": "043", "name": "Ημιαγωγά Υλικά: Θεωρία-Διατάξεις", "ects": 4, "type": "elective"}
+        ],
+        "8": [
+          {"code": "065", "name": "Δυναμική Συμπεριφορά Συστημάτων Ηλεκτρικής Ενέργειας", "ects": 5, "type": "elective"},
+          {"code": "066", "name": "Διαχείριση Συστημάτων Ηλεκτρικής Ενέργειας", "ects": 5, "type": "elective"},
+          {"code": "067", "name": "Διανεμημένη Παραγωγή", "ects": 4, "type": "elective"},
+          {"code": "068", "name": "Σύγχρονες Μηχανές", "ects": 5, "type": "elective"},
+          {"code": "069", "name": "Ηλεκτρονικά Ισχύος ΙΙ", "ects": 5, "type": "elective"},
+          {"code": "070", "name": "Υψηλές Τάσεις ΙΙ", "ects": 5, "type": "elective"},
+          {"code": "071", "name": "Συστήματα Αντικεραυνικής Προστασίας και Γειώσεων", "ects": 4, "type": "elective"},
+          {"code": "072", "name": "Σταθμοί Παραγωγής Ηλεκτρικής Ενέργειας", "ects": 4, "type": "elective"},
+          {"code": "073", "name": "Θεωρία και Τεχνολογία Πυρηνικών Αντιδραστήρων", "ects": 4, "type": "elective"},
+          {"code": "074", "name": "Τεχνολογία Ηλεκτροτεχνικών Υλικών", "ects": 4, "type": "elective"},
+          {"code": "129", "name": "Αρχές Οικονομίας (ΔΟΝΑ)", "ects": 5, "type": "elective"}
+        ],
+        "9": [
+          {"code": "102", "name": "Ειδικά Κεφάλαια Συστημάτων Ηλεκτρικής Ενέργειας", "ects": 6, "type": "elective"},
+          {"code": "103", "name": "Ηλεκτρική Οικονομία", "ects": 5, "type": "elective"},
+          {"code": "104", "name": "Σύγχρονα Ενεργειακά Συστήματα", "ects": 4, "type": "elective"},
+          {"code": "105", "name": "Υπολογιστικές Μέθοδοι στα Ενεργειακά Συστήματα", "ects": 4, "type": "elective"},
+          {"code": "106", "name": "Σερβοκινητήρια Συστήματα", "ects": 5, "type": "elective"},
+          {"code": "107", "name": "Συστήματα Ηλεκτροκίνησης", "ects": 4, "type": "elective"},
+          {"code": "108", "name": "Συντονισμός Μονώσεων-Προστασία έναντι Υπερτάσεων", "ects": 4, "type": "elective"},
+          {"code": "130", "name": "Οργάνωση και Διοίκηση Εργοστασίων (ΔΟΝΑ)", "ects": 4, "type": "elective"}
+        ]
+      }
+    },
+    "electronics": {
+      "name": "Ηλεκτρονικής και Υπολογιστών",
+      "rules": {"min_total_sector_ects": 50},
+      "courses": {
+        "7": [
+          {"code": "044", "name": "Ανάλυση Δεδομένων", "ects": 5, "type": "elective"},
+          {"code": "045", "name": "Θεωρία Δικτύων", "ects": 4, "type": "elective"},
+          {"code": "046", "name": "Δίκτυα Υπολογιστών ΙΙ", "ects": 4, "type": "elective"},
+          {"code": "047", "name": "Ηλεκτρονική ΙΙΙ", "ects": 6, "type": "elective"},
+          {"code": "048", "name": "Θεωρία Υπολογισμών και Αλγορίθμων", "ects": 4, "type": "elective"},
+          {"code": "049", "name": "Λειτουργικά Συστήματα", "ects": 5, "type": "elective"},
+          {"code": "050", "name": "Παράλληλα και Διανεμημένα Συστήματα", "ects": 4, "type": "elective"},
+          {"code": "051", "name": "Συστήματα Αυτομάτου Ελέγχου ΙΙΙ", "ects": 6, "type": "elective"},
+          {"code": "052", "name": "Τεχνικές Βελτιστοποίησης", "ects": 5, "type": "elective"},
+          {"code": "053", "name": "Χρονοσειρές", "ects": 4, "type": "elective"},
+          {"code": "054", "name": "Ψηφιακά Συστήματα HW σε Χαμηλά Επίπεδα Λογικής Ι", "ects": 5, "type": "elective"},
+          {"code": "055", "name": "Εφαρμοσμένα Μαθηματικά ΙΙ", "ects": 4, "type": "elective"},
+          {"code": "056", "name": "Σχεδίαση Ενεργών Φίλτρων", "ects": 5, "type": "elective"},
+          {"code": "075", "name": "Αρχιτεκτονική Προηγμένων Υπολογιστών και Επιταχυντών", "ects": 5, "type": "elective"},
+          {"code": "NIS-08-04", "name": "Αναγνώριση Προτύπων και Μηχανική Μάθηση", "ects": 5, "type": "elective"}
+        ],
+        "8": [
+          {"code": "076", "name": "Γραφική με Υπολογιστές", "ects": 4, "type": "elective"},
+          {"code": "077", "name": "Ενσωματωμένα Συστήματα Πραγματικού Χρόνου", "ects": 4, "type": "elective"},
+          {"code": "078", "name": "Επιχειρησιακή Έρευνα", "ects": 5, "type": "elective"},
+          {"code": "079", "name": "Εφαρμοσμένος Αυτόματος Έλεγχος", "ects": 6, "type": "elective"},
+          {"code": "080", "name": "Θεωρία Εκτίμησης και Ανίχνευσης", "ects": 5, "type": "elective"},
+          {"code": "081", "name": "Θεωρία Παιγνίων", "ects": 4, "type": "elective"},
+          {"code": "082", "name": "Μικροεπεξεργαστές και Περιφερειακά", "ects": 6, "type": "elective"},
+          {"code": "084", "name": "Προσομοίωση και Μοντελοποίηση Δυναμικών Συστημάτων", "ects": 5, "type": "elective"},
+          {"code": "085", "name": "Ρομποτική", "ects": 5, "type": "elective"},
+          {"code": "086", "name": "Μηχανική Λογισμικού Ι", "ects": 5, "type": "elective"},
+          {"code": "087", "name": "Τηλεπικοινωνιακή Ηλεκτρονική", "ects": 5, "type": "elective"},
+          {"code": "088", "name": "Υπολογιστική Νοημοσύνη", "ects": 5, "type": "elective"},
+          {"code": "089", "name": "Ψηφιακά Συστήματα HW σε Χαμηλά Επίπεδα Λογικής ΙΙ", "ects": 5, "type": "elective"},
+          {"code": "090", "name": "Ψηφιακή Επεξεργασία Εικόνας", "ects": 5, "type": "elective"},
+          {"code": "129", "name": "Αρχές Οικονομίας (ΔΟΝΑ)*", "ects": 5, "type": "elective"}
+        ],
+        "9": [
+          {"code": "110", "name": "Ασφάλεια Πληροφοριακών Συστημάτων", "ects": 3, "type": "elective"},
+          {"code": "111", "name": "Ασφαλής Ανάκτηση και Ανάλυση Ψηφ. Δεδομένων-Ψηφ. Εγκληματολογία", "ects": 3, "type": "elective"},
+          {"code": "112", "name": "Βάσεις Δεδομένων", "ects": 4, "type": "elective"},
+          {"code": "113", "name": "Βιομηχανική Πληροφορική", "ects": 3, "type": "elective"},
+          {"code": "114", "name": "Ευφυή και Προσαρμοστικά Συστήματα Αυτομάτου Ελέγχου", "ects": 5, "type": "elective"},
+          {"code": "115", "name": "Συστήματα Πολυμέσων", "ects": 5, "type": "elective"},
+          {"code": "116", "name": "Σχεδίαση Συστημάτων VLSI", "ects": 5, "type": "elective"},
+          {"code": "117", "name": "Σχεδίαση Συστημάτων Υλικού-Λογισμικού", "ects": 6, "type": "elective"},
+          {"code": "118", "name": "Ψηφιακά Ολοκληρωμένα Κυκλώματα VLSI-ASIC Μεγάλης Κλίμακας", "ects": 5, "type": "elective"},
+          {"code": "131", "name": "Αξιοπιστία Συστημάτων", "ects": 4, "type": "elective"},
+          {"code": "132", "name": "Μηχανική Λογισμικού ΙΙ", "ects": 5, "type": "elective"},
+          {"code": "", "name": "Βαθιά Μάθηση", "ects": 5, "type": "elective"},
+          {"code": "130", "name": "Οργάνωση και Διοίκηση Εργοστασίων (ΔΟΝΑ)*", "ects": 4, "type": "elective"}
+        ]
+      }
+    },
+    "telecommunications": {
+      "name": "Τηλεπικοινωνιών",
+      "rules": {"mandatory_courses_required": 9},
+      "courses": {
+        "7": [
+          {"code": "057", "name": "Ψηφιακή Επεξεργασία Σήματος", "ects": 6, "type": "mandatory"},
+          {"code": "058", "name": "Κεραίες και Διάδοση", "ects": 6, "type": "mandatory"},
+          {"code": "059", "name": "Τηλεπικοινωνιακά Συστήματα ΙΙΙ", "ects": 6, "type": "mandatory"},
+          {"code": "101", "name": "Γεωηλεκτρομαγνητισμός", "ects": 4, "type": "optional"},
+          {"code": "061", "name": "Ακουστική", "ects": 5, "type": "optional"},
+          {"code": "062", "name": "Ηλεκτρακουστική Ι", "ects": 4, "type": "optional"},
+          {"code": "063", "name": "Οπτική", "ects": 5, "type": "optional"},
+          {"code": "064", "name": "Βιοϊατρική Τεχνολογία", "ects": 4, "type": "optional"},
+          {"code": "055", "name": "Εφαρμοσμένα Μαθηματικά ΙΙ", "ects": 4, "type": "optional"}
+        ],
+        "8": [
+          {"code": "091", "name": "Δίκτυα Τηλεπικοινωνιών", "ects": 6, "type": "mandatory"},
+          {"code": "092", "name": "Οπτικές Επικοινωνίες", "ects": 6, "type": "mandatory"},
+          {"code": "093", "name": "Θεωρία Πληροφοριών και Κωδίκων", "ects": 5, "type": "mandatory"},
+          {"code": "094", "name": "Ηλεκτρακουστική ΙΙ", "ects": 4, "type": "optional"},
+          {"code": "095", "name": "Τηλεοπτικά Συστήματα", "ects": 4, "type": "optional"},
+          {"code": "096", "name": "Ειδικές Κεραίες", "ects": 5, "type": "optional"},
+          {"code": "097", "name": "Θεωρία Σκέδασης", "ects": 5, "type": "optional"},
+          {"code": "098", "name": "Προηγμένες Τεχνικές Επεξεργασίας Σήματος", "ects": 5, "type": "optional"},
+          {"code": "099", "name": "Εφαρμογές Τηλεπικοινωνιακών Διατάξεων", "ects": 5, "type": "optional"},
+          {"code": "100", "name": "Κβαντική Φυσική", "ects": 4, "type": "optional"},
+          {"code": "060", "name": "Υπολογιστικός Ηλεκτρομαγνητισμός", "ects": 5, "type": "optional"},
+          {"code": "129", "name": "Αρχές Οικονομίας (ΔΟΝΑ)*", "ects": 5, "type": "optional"}
+        ],
+        "9": [
+          {"code": "119", "name": "Ανάλυση και Σύνθεση Ραδιοσυστημάτων", "ects": 6, "type": "mandatory"},
+          {"code": "120", "name": "Μικροκυματική Τεχνολογία", "ects": 6, "type": "mandatory"},
+          {"code": "121", "name": "Ασύρματες Επικοινωνίες", "ects": 6, "type": "mandatory"},
+          {"code": "122", "name": "Τεχνολογία του Ήχου και της Εικόνας: Αποθήκευση, Επεξεργασία, Μετάδοση", "ects": 4, "type": "optional"},
+          {"code": "123", "name": "Ευρυζωνικά Δίκτυα", "ects": 4, "type": "optional"},
+          {"code": "124", "name": "Τεχνικές Μη Καταστρεπτικών Δοκιμών", "ects": 4, "type": "optional"},
+          {"code": "125", "name": "Κώδικες Διόρθωσης Σφαλμάτων", "ects": 5, "type": "optional"},
+          {"code": "126", "name": "Φωτονική Τεχνολογία", "ects": 5, "type": "optional"},
+          {"code": "127", "name": "Ηλεκτρομαγνητική Συμβατότητα", "ects": 5, "type": "optional"},
+          {"code": "128", "name": "Ειδικά Θέματα Διάδοσης και Ραδιοζεύξεων", "ects": 5, "type": "optional"},
+          {"code": "130", "name": "Οργάνωση και Διοίκηση Εργοστασίων (ΔΟΝΑ)*", "ects": 4, "type": "optional"}
+        ]
+      }
+    }
+  }
+}

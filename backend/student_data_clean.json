@@ -1,0 +1,352 @@
+{
+  "profile": {
+    "name": "Βρης Γεώργιος",
+    "department": "ΤΜΗΜΑ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ",
+    "specialty": "ΗΛΕΚΤΡΟΝΙΚΗΣ ΚΑΙ ΥΠΟΛΟΓΙΣΤΩΝ"
+  },
+  "courses": [
+    {
+      "code": "NIS-08-04",
+      "name": "ΜΗΧΑΝΙΚΗ ΜΑΘΗΣΗ",
+      "grade": 0.0,
+      "ects": 5,
+      "is_passed": false
+    },
+    {
+      "code": "112",
+      "name": "Βάσεις Δεδομένων",
+      "grade": 0.0,
+      "ects": 4,
+      "is_passed": false
+    },
+    {
+      "code": "132",
+      "name": "Μηχανική Λογισμικού ΙΙ",
+      "grade": 0.0,
+      "ects": 5,
+      "is_passed": false
+    },
+    {
+      "code": "086",
+      "name": "Μηχανική Λογισμικού Ι",
+      "grade": 10.0,
+      "ects": 5,
+      "is_passed": true
+    },
+    {
+      "code": "067",
+      "name": "Διανεμημένη Παραγωγή",
+      "grade": 0.0,
+      "ects": 4,
+      "is_passed": false
+    },
+    {
+      "code": "073",
+      "name": "Θεωρία και Τεχνολογία Πυρηνικών Αντιδραστήρων",
+      "grade": 0.0,
+      "ects": 4,
+      "is_passed": false
+    },
+    {
+      "code": "076",
+      "name": "Γραφική με Υπολογιστές",
+      "grade": 0.0,
+      "ects": 4,
+      "is_passed": false
+    },
+    {
+      "code": "077",
+      "name": "Ενσωματωμένα Συστήματα Πραγματικού Χρόνου",
+      "grade": 0.0,
+      "ects": 4,
+      "is_passed": false
+    },
+    {
+      "code": "078",
+      "name": "Επιχειρησιακή Έρευνα",
+      "grade": 0.0,
+      "ects": 5,
+      "is_passed": false
+    },
+    {
+      "code": "084",
+      "name": "Προσομοίωση και Μοντελοποίηση Δυναμικών Συστημάτων",
+      "grade": 0.0,
+      "ects": 5,
+      "is_passed": false
+    },
+    {
+      "code": "129",
+      "name": "Αρχές Οικονομίας (ΔΟΝΑ)",
+      "grade": 0.0,
+      "ects": 5,
+      "is_passed": false
+    },
+    {
+      "code": "062",
+      "name": "Ηλεκτρακουστική Ι",
+      "grade": 6.0,
+      "ects": 4,
+      "is_passed": true
+    },
+    {
+      "code": "064",
+      "name": "Βιοϊατρική Τεχνολογία",
+      "grade": 5.0,
+      "ects": 4,
+      "is_passed": true
+    },
+    {
+      "code": "045",
+      "name": "Θεωρία Δικτύων",
+      "grade": 0.0,
+      "ects": 4,
+      "is_passed": false
+    },
+    {
+      "code": "048",
+      "name": "Θεωρία Υπολογισμών και Αλγορίθμων",
+      "grade": 0.0,
+      "ects": 4,
+      "is_passed": false
+    },
+    {
+      "code": "049",
+      "name": "Λειτουργικά Συστήματα",
+      "grade": 0.0,
+      "ects": 5,
+      "is_passed": false
+    },
+    {
+      "code": "030",
+      "name": "Τηλεπικοινωνιακά Συστήματα ΙΙ",
+      "grade": 0.0,
+      "ects": 6,
+      "is_passed": false
+    },
+    {
+      "code": "034",
+      "name": "Ανάλυση και Σχεδιασμός Αλγορίθμων",
+      "grade": 6.5,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "035",
+      "name": "Δίκτυα Υπολογιστών Ι",
+      "grade": 6.5,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "031",
+      "name": "Συστήματα Αυτομάτου Ελέγχου ΙI",
+      "grade": 5.0,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "029",
+      "name": "Συστήματα Ηλεκτρικής Ενέργειας ΙΙ",
+      "grade": 0.0,
+      "ects": 6,
+      "is_passed": false
+    },
+    {
+      "code": "027",
+      "name": "Τηλεπικοινωνιακά Συστήματα Ι",
+      "grade": 9.0,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "028",
+      "name": "Συστήματα Μετρήσεων",
+      "grade": 5.5,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "024",
+      "name": "Συστήματα Ηλεκτρικής Ενέργειας Ι",
+      "grade": 0.0,
+      "ects": 6,
+      "is_passed": false
+    },
+    {
+      "code": "025",
+      "name": "Στοχαστικά Σήματα και Διαδικασίες",
+      "grade": 0.0,
+      "ects": 6,
+      "is_passed": false
+    },
+    {
+      "code": "026",
+      "name": "Συστήματα Αυτομάτου Ελέγχου Ι",
+      "grade": 0.0,
+      "ects": 6,
+      "is_passed": false
+    },
+    {
+      "code": "019",
+      "name": "Ηλεκτρονική ΙI",
+      "grade": 5.0,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "020",
+      "name": "Θεωρία Πιθανοτήτων και Στατιστική",
+      "grade": 5.5,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "021",
+      "name": "Σήματα και Συστήματα",
+      "grade": 6.0,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "023",
+      "name": "Διακριτά Μαθηματικά",
+      "grade": 5.0,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "018",
+      "name": "Ηλεκτρομαγνητικό Πεδίο ΙΙ",
+      "grade": 0.0,
+      "ects": 6,
+      "is_passed": false
+    },
+    {
+      "code": "015",
+      "name": "Ηλεκτρομαγνητικό Πεδίο Ι",
+      "grade": 1.0,
+      "ects": 6,
+      "is_passed": false
+    },
+    {
+      "code": "016",
+      "name": "Ηλεκτρονική Ι",
+      "grade": 5.0,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "014",
+      "name": "Ηλεκτρικά Κυκλώματα ΙΙ",
+      "grade": 5.0,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "013",
+      "name": "Εφαρμοσμένα Μαθηματικά Ι",
+      "grade": 5.0,
+      "ects": 7,
+      "is_passed": true
+    },
+    {
+      "code": "017",
+      "name": "Δομές Δεδομένων",
+      "grade": 5.0,
+      "ects": 5,
+      "is_passed": true
+    },
+    {
+      "code": "012",
+      "name": "Εφαρμοσμένη Θερμοδυναμική",
+      "grade": 5.5,
+      "ects": 4,
+      "is_passed": true
+    },
+    {
+      "code": "010",
+      "name": "Ηλεκτρολογικά Υλικά",
+      "grade": 6.0,
+      "ects": 4,
+      "is_passed": true
+    },
+    {
+      "code": "011",
+      "name": "Οργάνωση Υπολογιστών",
+      "grade": 7.5,
+      "ects": 5,
+      "is_passed": true
+    },
+    {
+      "code": "008",
+      "name": "Ηλεκτρικά Κυκλώματα Ι",
+      "grade": 5.0,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "009",
+      "name": "Αντικειμενοστρεφής Προγραμματισμός",
+      "grade": 8.5,
+      "ects": 5,
+      "is_passed": true
+    },
+    {
+      "code": "007",
+      "name": "Λογισμός ΙΙ",
+      "grade": 6.5,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "ΞΓ27",
+      "name": "Ιταλική Γλώσσα",
+      "grade": 0.0,
+      "ects": 2,
+      "is_passed": false
+    },
+    {
+      "code": "003",
+      "name": "Φυσική",
+      "grade": 3.0,
+      "ects": 5,
+      "is_passed": false
+    },
+    {
+      "code": "002",
+      "name": "Γραμμική Άλγεβρα",
+      "grade": 5.0,
+      "ects": 5,
+      "is_passed": true
+    },
+    {
+      "code": "001",
+      "name": "Λογισμός Ι",
+      "grade": 6.0,
+      "ects": 6,
+      "is_passed": true
+    },
+    {
+      "code": "004",
+      "name": "Δομημένος Προγραμματισμός",
+      "grade": 5.0,
+      "ects": 5,
+      "is_passed": true
+    },
+    {
+      "code": "005",
+      "name": "Λογική Σχεδίαση",
+      "grade": 7.0,
+      "ects": 5,
+      "is_passed": true
+    },
+    {
+      "code": "006",
+      "name": "Τεχνικές Σχεδίασης με Υπολογιστή",
+      "grade": 8.0,
+      "ects": 4,
+      "is_passed": true
+    }
+  ]
+}
