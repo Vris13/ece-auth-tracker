@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import SkillTree from './SkillTree';
+import SkillTree3D from './SkillTree3D';
 import { BookOpen, CheckCircle, XCircle, LogOut, GraduationCap, Loader2, TrendingUp, Target, AlertCircle, BarChart3, List, Award, Lock, Calendar, Plus, Minus, Search } from 'lucide-react';
 
 export default function App() {
@@ -817,6 +819,18 @@ export default function App() {
 
         {activeTab === 'planner' && (
           <div>
+            {/* === SKILL TREE ADDED HERE === */}
+            <div className="mb-6 bg-white rounded-xl shadow-lg p-4 border border-gray-200">
+              <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                <Target className="text-blue-600 mr-2" size={24} />
+                Δέντρο Εξέλιξης
+              </h2>
+              {/* In your planner tab area */}
+<div className="mb-6">
+  <SkillTree3D />
+</div>
+            </div>
+
             {/* Planned Courses at the top */}
             {plannedCourses.length > 0 && (
               <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl shadow-lg p-6 border-2 border-cyan-200 mb-6">
